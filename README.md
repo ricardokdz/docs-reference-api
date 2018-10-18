@@ -7,3 +7,4 @@ Nós suportamos chamadas diretas aos recursos da API a partir de outras origens,
 Para permitir que você possa explorar todos os serviços sem preocupação, nossas contas possuem chaves de acesso nos modos de produção \(LIVE\) e teste \(TEST\). Não é possível alternar entre modos, basta usar a chave apropriada para realizar operações em produção ou ambiente de teste. Chamadas feitas com chaves de teste não são processadas junto a instituições bancárias, facilitando o desenvolvimento.
 
 Fique por dentro de todas as publicações e anúncios de APIs e SDKs da Zoop acessando nossa [lista de publicações](https://groups.google.com/a/pagzoop.com/forum/#!forum/zoop-api---publicaes).
+
