@@ -3,6 +3,7 @@
 * [Como começar](README.md)
 * [Autenticação básica](autenticacao-basica.md)
 * [Códigos de erro](codigos-de-erro.md)
+* [Ambiente de testes](ambiente-de-testes.md)
 
 ## API
 
