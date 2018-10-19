@@ -1,6 +1,6 @@
 # Criar vendedor do tipo empresa
 
-{% api-method method="post" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="post" host="https://api.cakes.com" path="/v1/marketplaces/marketplace\_id/sellers/businesses" %}
 {% api-method-summary %}
 Criar vendedor do tipo empresa
 {% endapi-method-summary %}
@@ -12,26 +12,20 @@ This endpoint allows you to get free cakes.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="marketplace\_id" type="string" %}
-ID of the cake to get, for free of course.
+{% api-method-parameter name="marketplace\_id" type="string" required=true %}
+ID de identificação do marketplace
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
-{% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
+{% api-method-body-parameters %}
+{% api-method-parameter name="123" type="string" required=false %}
+das
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="gluten" type="boolean" %}
-Whether the cake should be gluten-free or not.
+{% api-method-parameter name="321" type="number" required=true %}
+das
 {% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -63,4 +57,6 @@ Could not find a cake matching this query.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
